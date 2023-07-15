@@ -202,3 +202,79 @@ footer {
 span {
     color: red;
 }
+
+/* Responsive styles */
+
+.hide{
+    display: none;
+}
+
+/* Mobile Device */
+@media screen and (max-width: 576px) {
+
+   .banner-container{
+        flex-direction: column;
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+    .banner-info {
+        padding: 0px;
+        margin-left: 0px;
+    }
+    .title {
+        font-size: 36px;
+        margin: 10px;
+    }
+    .description {
+        font-size: 18px;
+        margin: 10px;
+    }
+    .btn {
+        margin: 10px;
+        
+    }
+    .banner-mobile-image{
+        width: 300px;
+        height: auto;
+    }
+    .flower-showcase {
+        flex-direction: column
+    }
+    .support-details {
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+    .deal{
+        flex-direction: column;
+        margin-top: 10px;
+        padding: 10px;
+
+    }
+    .deal-info {
+        text-align: center;
+        padding: 30px;
+    }
+    .social {
+        padding: 10px 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .social-flower{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 10px;
+    }
+    .client-review-container{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .individual-client{
+        margin-top: 50px;
+    }
+
+}

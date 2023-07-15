@@ -1,0 +1,204 @@
+/* global style  */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.title {
+    font-size: 42px;
+    margin: 20px;
+}
+
+.description {
+    font-size: 18px;
+    margin: 20px;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px;
+    color: white;
+    background-color: #E55473;
+    border: none;
+}
+
+/* banner style   */
+.banner-container {
+    background-color: #E554731A;
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px;
+    align-items: center;
+}
+
+.banner-info {
+    padding: 50px;
+    margin-left: 15%;
+}
+
+/* featured flowers style  */
+
+.featured-flower {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.flower-showcase {
+    display: flex;
+    justify-content: center;
+
+}
+
+.single-flower {
+    width: 464px;
+    height: 538px;
+
+}
+
+.featured-one-image {
+    border-radius: 300px 300px 0px 0px;
+    padding: 35px 10px 0px 10px;
+    margin-right: 78px;
+    margin-left: 78px;
+
+}
+
+.pink {
+    background: rgba(167, 33, 98, 0.15);
+    width: 310px;
+    height: 428px;
+}
+
+.Vase {
+    margin-top: 60px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 370px;
+    height: 370px;
+}
+
+.yellow {
+    /* margin-bottom: -50;
+    padding-top: 25px; */
+    background: rgba(71, 125, 17, 0.15);
+    width: 314px;
+    height: 471px;
+}
+
+/* support section style  */
+.support-details {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 50px;
+    margin-top: 60px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 5px;
+}
+
+/* hot deal style  */
+.deal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 150px;
+
+
+}
+
+.deal-info {
+    text-align: center;
+    padding: 60px;
+    margin-right: 95px;
+}
+
+/* social style  */
+
+.social {
+    text-align: center;
+    padding: 25px 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+}
+
+.social-flower {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    height: 350px;
+}
+
+.social-single-flower {
+    width: 250px;
+    height: 300px;
+}
+
+/* deal and subscribe style  */
+.deal-subscribe {
+    text-align: center;
+    padding: 25px;
+    background-image: url('./Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.email-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-field {
+    width: 480px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+/* client review style  */
+.client-review-container {
+    text-align: center;
+    justify-content: center;
+    margin-top: 250px;
+    margin-bottom: 155px;
+    background-color: rgba(39, 39, 39, 0.05);
+    ;
+    display: flex;
+
+}
+
+.individual-client {
+    width: 350px;
+    gap: 50px;
+}
+
+.client-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    margin-bottom: -50px;
+}
+
+/* footer style  */
+footer {
+    text-align: center;
+    padding-top: 75px;
+    height: 250px;
+    color: white;
+    background-color: black;
+    margin-top: 60px;
+}
+
+span {
+    color: red;
+}
